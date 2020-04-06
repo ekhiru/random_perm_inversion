@@ -1,8 +1,12 @@
 # random_perm_inversion
 Generate a random permutation at a Kendall's-tau distance from the identity 
 (or with a given number of inversions). Since there are possibly many permutations
-at a given distance, this code generates one of them uniformly at random. 
+at a given distance, this code generates one of them uniformly at random. There is an implementation in Python and another in C
 
+The Python code is selfcontained in the notebook. 
+
+
+The C file
 The following code can be run by typing:
     g++ perm_inversions.cpp -o perms
     ./perms
